@@ -16,15 +16,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelMain.text = "Выберите задание"
-//        taskButton1.addTarget(self, action: #selector(didTapTaskButton1), for: .touchUpInside)
     }
     
-//    @objc func didTapTaskButton1() {
-//        
-//    }
     @IBAction func didTapTaskButton1() {
         let storyboard = UIStoryboard(name: "task1ViewController", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "task1ViewController") as! task1ViewController
+        present(vc, animated: true)
+    }
+    
+    @IBAction func didTapTaskButton2() {
+        let storyboard = UIStoryboard(name: "task2ViewController", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "task2ViewController") as! task2ViewController
+        present(vc, animated: true)
+    }
+    
+    @IBAction func didTapTaskButton3() {
+        let storyboard = UIStoryboard(name: "task3ViewController", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "task3ViewController") as! task3ViewController
         present(vc, animated: true)
     }
 

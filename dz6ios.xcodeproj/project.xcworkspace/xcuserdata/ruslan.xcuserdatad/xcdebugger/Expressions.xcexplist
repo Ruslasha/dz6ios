@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "task1ViewController.didTapActionButton():task1ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resultText">
+            </PersistentString>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+            <PersistentString
+               value = "labelResult.text">
+            </PersistentString>
+            <PersistentString
+               value = "addText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

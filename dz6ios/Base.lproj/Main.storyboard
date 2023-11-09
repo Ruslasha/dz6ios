@@ -35,6 +35,9 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Task 2">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapTaskButton2" destination="BYZ-38-t0r" eventType="touchUpInside" id="EqJ-S4-xMi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-cp-z0w">
                                 <rect key="frame" x="97" y="410" width="199" height="97"/>
@@ -45,6 +48,9 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Task 3">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapTaskButton3" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gvq-SU-3He"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="hFG-gg-63q">
                                 <rect key="frame" x="59" y="599" width="275" height="36"/>
